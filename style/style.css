@@ -1,0 +1,251 @@
+
+.column {
+  border:2px solid;
+  width:22%;
+  float:left;
+  margin:10px 15px 10px 15px;
+  height:400px;
+  padding:5px;   
+  box-shadow: 5px 10px greenyellow;
+
+}
+
+.col1 {
+    width:20%;
+    float:left;
+}
+  
+.col2 {
+    width:50%;
+    float:left;
+}
+
+
+.col3 {
+    width:90%;
+    float:left;
+}
+/* Clear floats after the columns */
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body,html
+{
+    margin:0px;
+    font-size:30px;
+    font-family: AvenirLTStd-Medium,Arial,sans-serif;
+}
+
+.img {
+    padding-top: 20px;
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+  }
+
+  .trainername{
+    color: blue;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+  }
+
+  .common
+  {
+      margin-top:20px;
+      margin-bottom: 50px;
+      background-color: #ea5033;
+      color:white;
+      border: 2px solid #ea5033;
+      padding: 15px 30px;
+      font-size: 1.1em;
+      line-height: 1em;
+  }
+  .mediumfontsize{
+      font-size:20px;
+  }
+  .main-heading
+  {
+  background: #fff;
+  border-bottom: 1px #ddd solid;
+  padding: 115px 0 40px;
+}
+.img-1{
+    padding-top: 20px;
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+}
+
+  /*-------------------------Dummy-Teachers.php----------------------------
+
+  body {
+    margin: 40px;
+  }
+  
+  .sidebar {
+          grid-area: sidebar;
+      }
+  
+      .sidebar2 {
+          grid-area: sidebar2;
+      }
+  
+      .content {
+          grid-area: content;
+      }
+  
+      .header {
+          grid-area: header;
+      }
+  
+      .footer {
+          grid-area: footer;
+      }
+  
+      .wrapper {
+          background-color: #fff;
+          color: #444;
+      }
+  
+    .wrapper {
+      display: grid;
+      grid-gap: 1em;
+      grid-template-areas:
+       "header"
+       "sidebar"
+       "content"
+       "sidebar2"
+       "footer"
+    }
+  
+      @media only screen and (min-width: 500px)  {
+      .wrapper {
+  
+          grid-template-columns: 20% auto;
+          grid-template-areas:
+      "header   header"
+          "sidebar  content"
+          "sidebar2 sidebar2"
+          "footer   footer";
+      }
+      }
+  
+      @media only screen and (min-width: 600px)   {
+          .wrapper {
+        grid-gap: 20px;
+              grid-template-columns: 120px auto 120px;
+              grid-template-areas:
+        "header  header  header"
+              "sidebar content sidebar2"
+              "footer  footer  footer";
+              max-width: 600px;
+          }
+      }
+  
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 150%; 
+  }
+  
+  .header,
+  .footer {
+    background-color: #999;
+  }
+  
+  .sidebar2 {
+    background-color: #ccc;
+    color: #444;
+  }
+
+  ---------------------------------------------------------------------
+  */
+  #content{
+    width:100%;
+    height:100%;
+
+    /* background: gold; */
+
+  }
+#main{
+    width:35%;    
+    height:100%;
+    float:left;    
+    border:1px solid black;
+    padding-left:200px;
+/* background: red; For browsers that do not support gradients */
+background: linear-gradient(to bottom right, #ea5033, gold); /* Standard syntax (must be last) */
+
+
+}
+  #loginimage{
+    width:49%;
+    height:100%;
+    float:left;
+    
+    /* background: orangered; */
+
+  }
+  #lfb 
+  {  
+  position:relative;  
+  height:281px;  
+  width:450px;  
+  margin:0 auto;
+  }
+  #lfb img 
+  {  
+  width:200px;  
+  height:200px;  
+  position:absolute;  
+  left:0;  
+  /* background-image: url("images/leftlogin.jpg"); */
+  
+  border-radius:50%;
+  -webkit-transition: opacity 1s ease-in-out;  
+  -moz-transition: opacity 1s ease-in-out;  
+  -o-transition: opacity 1s ease-in-out;  
+  transition: opacity 1s ease-in-out;
+  }
+  @keyframes lfb3FadeInOut 
+  {  
+  0% {  opacity:1;}
+  45% {opacity:1;}
+  55% {opacity:0;}
+  100% {opacity:0;}}
+  
+  #lfb img.top 
+  {
+  animation-name:lfb3FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  }
+
+  #logincredentials{
+    position:relative;  
+    height:330px;  
+    width:400px;  
+    margin:0 auto;  
+    text-shadow: red;
+}
+/* --------------------- */
+  .redcolor{
+      color:red;
+  }
+  input.button {
+    margin: 0;
+    font: bold 1em Arial, Sans-serif;
+    border: 1px solid blue;
+    padding: 2px 3px;
+    background-color: green;
+}
+
+  
